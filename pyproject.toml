@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-autocolorgimp"
+description = "Shamelessly copied the code to auto color correct the image like in gimp from this answer: [a/https://stackoverflow.com/a/56365560/4561887](https://stackoverflow.com/a/56365560/4561887)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "opencv-python", "numpy", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/A4P7J1N7M05OT/ComfyUI-AutoColorGimp"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-AutoColorGimp"
+Icon = ""
